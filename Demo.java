@@ -1,4 +1,7 @@
-/* 
+/* 输出两个值a,b中的较小值
+输出a乘b的值
+输出1到10整数和
+输出1到10的偶数
 */
 class Demo{
 	public static void main(String args[]){
@@ -9,7 +12,7 @@ class Demo{
 		if(a>b){
 			c=b;
 		}
-		System.out.println(c);
+		System.out.println(c);//输出较小值
 		switch(a*b){
 			case 2:
 				System.out.println(2);
